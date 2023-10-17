@@ -97,3 +97,10 @@ passwd root
 This is will allow to set the new password.
 
 Also find the IP Address of the First container
+docker inspect sshserver-container | grep IPAddress
+
+we need to run the following command inside the second container,
+
+ssh root@172.17.0.2
+
+Create a file and dirctory 
